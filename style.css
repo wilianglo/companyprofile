@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(177, 174, 174);
+  background-image: url(./img/dlkr-EJHiB8oRzYc-unsplash.jpg);
+  background-repeat: repeat;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+b {
+  font-weight: 700;
+}
+.tentang {
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.img-product {
+  width: 300px;
+  height: 300px;
+  transition: ease-in-out 2s;
+  -webkit-transition: ease-in-out 2s;
+  -moz-transition: ease-in-out 2s;
+  -ms-transition: ease-in-out 2s;
+  -o-transition: ease-in-out 2s;
+}
+
+.img-product:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(16px 16px 20px rgb(35, 31, 33));
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-filter: drop-shadow(16px 16px 20px rgb(35, 31, 33));
+}
+
+.map {
+  border-radius: 15px;
+  filter: drop-shadow(16px 16px 20px rgb(35, 31, 33));
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  -webkit-filter: drop-shadow(16px 16px 20px rgb(35, 31, 33));
+}
